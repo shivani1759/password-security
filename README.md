@@ -1,36 +1,35 @@
 # 🔐 Password Security Analyzer
 
-A simple Python-based cybersecurity project that analyzes password strength and provides basic security recommendations.
+A Python-based cybersecurity project that analyzes password strength and provides basic security recommendations.
 
-The program evaluates a password based on its length, character types, and whether it matches a list of commonly used passwords.
+The program evaluates passwords based on their length, character types, and whether they match a list of commonly used passwords.
 
 ---
 
 ## 📌 Features
 
 - 🔒 Secure password input using Python's `getpass`
-- 📏 Checks password length
-- 🔠 Detects uppercase letters
-- 🔡 Detects lowercase letters
-- 🔢 Detects numbers
-- 🔣 Detects special characters
-- ⚠️ Checks against common passwords
-- 📊 Calculates a password security score
-- 💪 Classifies passwords as:
-  - Weak
-  - Medium
-  - Strong
-- 💡 Provides recommendations to improve password security
+- 📏 Password length analysis
+- 🔠 Uppercase letter detection
+- 🔡 Lowercase letter detection
+- 🔢 Number detection
+- 🔣 Special character detection
+- ⚠️ Common password detection
+- 📊 Security score calculation
+- 💪 Password strength classification
+- 💡 Security recommendations
+- 🧪 Automated unit testing
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **Python 3**
-- **getpass** – for hidden password input
-- **String methods** – for character analysis
+- **getpass** – secure password input
+- **unittest** – automated testing
+- **Git & GitHub** – version control
 
-No external libraries are required.
+No external Python packages are required.
 
 ---
 
@@ -40,4 +39,8 @@ No external libraries are required.
 password-security/
 │
 ├── passwordchecker.py
-└── README.md
+├── README.md
+├── .gitignore
+│
+└── tests/
+    └── test_passwordchecker.py
